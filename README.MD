@@ -1,8 +1,8 @@
 ### Hi, I'm Greedysky👋
 >I am a C++/Qt/Python Programmer from China.
 
-- 🏡 博客：<a href="https://greedysky.github.io/" target="_blank">greedysky.github.io</a>
-- 💬 邮箱：[greedysky@163.com](greedysky@163.com)
+- 🏡 Blog：<a href="https://greedysky.github.io/" target="_blank">greedysky.github.io</a>
+- 💬 Mail：[greedysky@163.com](greedysky@163.com)
 
 
 ### ⚡ Technologies  
@@ -26,3 +26,6 @@
 
 <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=greedysky&hide_border=true&show_icons=true&theme=bear&include_all_commits=true&count_private=true" />
 
+
+### ⚡ Visitor count
+<img src="https://profile-counter.glitch.me/greedysky/count.svg" />
