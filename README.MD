@@ -28,7 +28,7 @@
 
 ![](https://raw.githubusercontent.com/greedysky/greedysky/stats/overview.svg)
 ![](https://raw.githubusercontent.com/greedysky/greedysky/stats/languages.svg)
-![](https://raw.githubusercontent.com/greedysky/greedysky/animation/snake.svg)
+![](https://raw.githubusercontent.com/greedysky/greedysky/snake/overview.svg)
 
 ### ⚡ Visitor count
 ![](https://profile-counter.glitch.me/greedysky/count.svg)
