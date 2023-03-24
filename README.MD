@@ -26,8 +26,8 @@
 
 ![](https://github-readme-stats-eight-theta.vercel.app/api?username=greedysky&hide_border=true&show_icons=true&theme=bear&include_all_commits=true&count_private=true)
 
-![](https://raw.githubusercontent.com/greedysky/greedysky/stats/generated/overview.svg)
-![](https://raw.githubusercontent.com/greedysky/greedysky/stats/generated/languages.svg)
+![](https://raw.githubusercontent.com/greedysky/greedysky/stats/overview.svg)
+![](https://raw.githubusercontent.com/greedysky/greedysky/stats/languages.svg)
 ![](https://raw.githubusercontent.com/greedysky/greedysky/animation/snake.svg)
 
 ### ⚡ Visitor count
