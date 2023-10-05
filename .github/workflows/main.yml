@@ -80,7 +80,10 @@ jobs:
           github_user_name: greedysky
           outputs: |
             dist/overview.svg?palette=github-dark
-
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: snake
