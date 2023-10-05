@@ -21,7 +21,7 @@ jobs:
     # Sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out repository under $GITHUB_WORKSPACE, so the job can access it
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     # Run using Python 3.8 for consistency and aiohttp
     - name: Set up Python 3.8
@@ -59,7 +59,7 @@ jobs:
         COUNT_STATS_FROM_FORKS: ${{ secrets.COUNT_STATS_FROM_FORKS }}
 
     # Commits all changed files to the repository
-    - uses: crazy-max/ghaction-github-pages@v3
+    - uses: crazy-max/ghaction-github-pages@v4
       with:
         target_branch: stats
         build_dir: generated
@@ -74,14 +74,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Snake Animation
-      - uses: Platane/snk@v2
+      - uses: Platane/snk@v3
         id: snake-gif
         with:
           github_user_name: greedysky
           outputs: |
             dist/overview.svg?palette=github-dark
 
-      - uses: crazy-max/ghaction-github-pages@v3
+      - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: snake
           build_dir: dist
