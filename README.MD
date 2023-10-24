@@ -1,5 +1,5 @@
 ### Hi, I'm Greedysky👋
->I am a C++/Qt/Python Programmer from China.
+>I am a C++/Qt/Linux/Python Programmer from China.
 
 - 🏡 Blog：<a href="https://greedysky.github.io/" target="_blank">greedysky.github.io</a>
 - 💬 Mail：[greedysky@163.com](greedysky@163.com)
