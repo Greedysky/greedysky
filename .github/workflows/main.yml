@@ -38,7 +38,7 @@ jobs:
         key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
         restore-keys: |
           ${{ runner.os }}-pip-
-    
+
     # Install dependencies with `pip`
     - name: Install requirements
       run: |
@@ -65,7 +65,7 @@ jobs:
       env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  
+
   generate-snake:
     # Platane/snk
     name: Job to generate snake animation
@@ -82,7 +82,7 @@ jobs:
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
+
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: snake
@@ -90,4 +90,4 @@ jobs:
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  
+
