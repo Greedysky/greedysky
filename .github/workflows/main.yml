@@ -39,7 +39,6 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-pip-
     
-        
     # Install dependencies with `pip`
     - name: Install requirements
       run: |
