@@ -20,18 +20,18 @@ jobs:
     # Sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out repository under $GITHUB_WORKSPACE, so the job can access it
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
 
     # Run using Python 3.8 for consistency and aiohttp
     - name: Set up Python 3.8
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v6
       with:
         python-version: '3.8'
         architecture: 'x64'
 
     # Cache dependencies. From:
     # https://github.com/actions/cache/blob/master/examples.md#python---pip
-    - uses: actions/cache@v4
+    - uses: actions/cache@v5
       with:
         path: ~/.cache/pip
         key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
@@ -57,7 +57,7 @@ jobs:
         COUNT_STATS_FROM_FORKS: ${{ secrets.COUNT_STATS_FROM_FORKS }}
 
     # Commits all changed files to the repository
-    - uses: crazy-max/ghaction-github-pages@v4
+    - uses: crazy-max/ghaction-github-pages@v5
       with:
         target_branch: stats
         build_dir: generated
@@ -82,7 +82,7 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: crazy-max/ghaction-github-pages@v4
+      - uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: snake
           build_dir: dist
